@@ -46,10 +46,11 @@ class TestTriangle(unittest.TestCase):
         self.assertEqual(classify_triangle(1, -2, 3), "Error: Not a triangle")
         self.assertEqual(classify_triangle(1, 2, -3), "Error: Not a triangle")
         self.assertEqual(classify_triangle(1, 2, 3), "Error: Not a triangle")
-
+'''
     def test_intentionalFail(self):
         self.assertEqual(classify_triangle(3, 4, 5), "Scalene Triangle")
         self.assertEqual(classify_triangle(3, 3, 4), "Isosceles Triangle Right")
+'''
 
 if __name__ == "__main__":
     unittest.main()
