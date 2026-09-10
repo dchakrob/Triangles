@@ -2,7 +2,7 @@
 Name: Danica Chakroborty
 Assignment: Triangles
 Github Link: 
-
+I pledge my Honor that I have abided by the Stevens Honor System. - Danica Chakroborty
 """
 import unittest
 
